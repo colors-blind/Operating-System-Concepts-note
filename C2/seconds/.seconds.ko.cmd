@@ -1,0 +1,1 @@
+cmd_/home/back/system-programming/seconds/seconds.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/back/system-programming/seconds/seconds.ko /home/back/system-programming/seconds/seconds.o /home/back/system-programming/seconds/seconds.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/back/system-programming/proc_lkm/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/back/system-programming/proc_lkm/hello.ko /home/back/system-programming/proc_lkm/hello.o /home/back/system-programming/proc_lkm/hello.mod.o;  true
